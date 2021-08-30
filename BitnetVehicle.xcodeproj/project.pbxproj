@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		EFCCDE1F26DAA9BE000C4B78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCCDE1E26DAA9BE000C4B78 /* AppDelegate.swift */; };
 		EFCCDE2126DAA9BE000C4B78 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCCDE2026DAA9BE000C4B78 /* SceneDelegate.swift */; };
-		EFCCDE2326DAA9BE000C4B78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCCDE2226DAA9BE000C4B78 /* ViewController.swift */; };
+		EFCCDE2326DAA9BE000C4B78 /* ManufacturerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCCDE2226DAA9BE000C4B78 /* ManufacturerListViewController.swift */; };
 		EFCCDE2626DAA9BE000C4B78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFCCDE2426DAA9BE000C4B78 /* Main.storyboard */; };
 		EFCCDE2826DAA9C1000C4B78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFCCDE2726DAA9C1000C4B78 /* Assets.xcassets */; };
 		EFCCDE2B26DAA9C1000C4B78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFCCDE2926DAA9C1000C4B78 /* LaunchScreen.storyboard */; };
+		EFCCDE3326DAAB37000C4B78 /* Manufacturer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCCDE3226DAAB37000C4B78 /* Manufacturer.swift */; };
+		EFCCDE3526DAC431000C4B78 /* ManufacturerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCCDE3426DAC431000C4B78 /* ManufacturerListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EFCCDE1B26DAA9BE000C4B78 /* Today.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Today.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFCCDE1B26DAA9BE000C4B78 /* BitnetVehicle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitnetVehicle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFCCDE1E26DAA9BE000C4B78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFCCDE2026DAA9BE000C4B78 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EFCCDE2226DAA9BE000C4B78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFCCDE2226DAA9BE000C4B78 /* ManufacturerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManufacturerListViewController.swift; sourceTree = "<group>"; };
 		EFCCDE2526DAA9BE000C4B78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EFCCDE2726DAA9C1000C4B78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFCCDE2A26DAA9C1000C4B78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFCCDE2C26DAA9C1000C4B78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFCCDE3226DAAB37000C4B78 /* Manufacturer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manufacturer.swift; sourceTree = "<group>"; };
+		EFCCDE3426DAC431000C4B78 /* ManufacturerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManufacturerListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +44,7 @@
 		EFCCDE1226DAA9BE000C4B78 = {
 			isa = PBXGroup;
 			children = (
-				EFCCDE1D26DAA9BE000C4B78 /* Today */,
+				EFCCDE1D26DAA9BE000C4B78 /* BitnetVehicle */,
 				EFCCDE1C26DAA9BE000C4B78 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +52,33 @@
 		EFCCDE1C26DAA9BE000C4B78 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EFCCDE1B26DAA9BE000C4B78 /* Today.app */,
+				EFCCDE1B26DAA9BE000C4B78 /* BitnetVehicle.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EFCCDE1D26DAA9BE000C4B78 /* Today */ = {
+		EFCCDE1D26DAA9BE000C4B78 /* BitnetVehicle */ = {
 			isa = PBXGroup;
 			children = (
 				EFCCDE1E26DAA9BE000C4B78 /* AppDelegate.swift */,
 				EFCCDE2026DAA9BE000C4B78 /* SceneDelegate.swift */,
-				EFCCDE2226DAA9BE000C4B78 /* ViewController.swift */,
+				EFCCDE2226DAA9BE000C4B78 /* ManufacturerListViewController.swift */,
 				EFCCDE2426DAA9BE000C4B78 /* Main.storyboard */,
 				EFCCDE2726DAA9C1000C4B78 /* Assets.xcassets */,
 				EFCCDE2926DAA9C1000C4B78 /* LaunchScreen.storyboard */,
 				EFCCDE2C26DAA9C1000C4B78 /* Info.plist */,
+				EFCCDE3226DAAB37000C4B78 /* Manufacturer.swift */,
+				EFCCDE3426DAC431000C4B78 /* ManufacturerListCell.swift */,
 			);
-			path = Today;
+			path = BitnetVehicle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EFCCDE1A26DAA9BE000C4B78 /* Today */ = {
+		EFCCDE1A26DAA9BE000C4B78 /* BitnetVehicle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EFCCDE2F26DAA9C1000C4B78 /* Build configuration list for PBXNativeTarget "Today" */;
+			buildConfigurationList = EFCCDE2F26DAA9C1000C4B78 /* Build configuration list for PBXNativeTarget "BitnetVehicle" */;
 			buildPhases = (
 				EFCCDE1726DAA9BE000C4B78 /* Sources */,
 				EFCCDE1826DAA9BE000C4B78 /* Frameworks */,
@@ -82,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = Today;
-			productName = Today;
-			productReference = EFCCDE1B26DAA9BE000C4B78 /* Today.app */;
+			name = BitnetVehicle;
+			productName = BitnetVehicle;
+			productReference = EFCCDE1B26DAA9BE000C4B78 /* BitnetVehicle.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +107,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EFCCDE1626DAA9BE000C4B78 /* Build configuration list for PBXProject "Today" */;
+			buildConfigurationList = EFCCDE1626DAA9BE000C4B78 /* Build configuration list for PBXProject "BitnetVehicle" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +120,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EFCCDE1A26DAA9BE000C4B78 /* Today */,
+				EFCCDE1A26DAA9BE000C4B78 /* BitnetVehicle */,
 			);
 		};
 /* End PBXProject section */
@@ -137,9 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFCCDE2326DAA9BE000C4B78 /* ViewController.swift in Sources */,
+				EFCCDE2326DAA9BE000C4B78 /* ManufacturerListViewController.swift in Sources */,
+				EFCCDE3526DAC431000C4B78 /* ManufacturerListCell.swift in Sources */,
 				EFCCDE1F26DAA9BE000C4B78 /* AppDelegate.swift in Sources */,
 				EFCCDE2126DAA9BE000C4B78 /* SceneDelegate.swift in Sources */,
+				EFCCDE3326DAAB37000C4B78 /* Manufacturer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,12 +296,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X7U8Q9FLCU;
-				INFOPLIST_FILE = Today/Info.plist;
+				INFOPLIST_FILE = BitnetVehicle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.anysolutions.apple-samplecode.Today";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anysolutions.apple-samplecode.BitnetVehicle";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,12 +315,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X7U8Q9FLCU;
-				INFOPLIST_FILE = Today/Info.plist;
+				INFOPLIST_FILE = BitnetVehicle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.anysolutions.apple-samplecode.Today";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anysolutions.apple-samplecode.BitnetVehicle";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,7 +330,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EFCCDE1626DAA9BE000C4B78 /* Build configuration list for PBXProject "Today" */ = {
+		EFCCDE1626DAA9BE000C4B78 /* Build configuration list for PBXProject "BitnetVehicle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EFCCDE2D26DAA9C1000C4B78 /* Debug */,
@@ -331,7 +339,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EFCCDE2F26DAA9C1000C4B78 /* Build configuration list for PBXNativeTarget "Today" */ = {
+		EFCCDE2F26DAA9C1000C4B78 /* Build configuration list for PBXNativeTarget "BitnetVehicle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EFCCDE3026DAA9C1000C4B78 /* Debug */,
