@@ -35,6 +35,6 @@ Project-Root
 
 ## Screens
 
-- Lauchscreen
+- Launchscreen
 - Splashscreen with 2 secs delay
 - Dashboard with car manufacturers' presented data
