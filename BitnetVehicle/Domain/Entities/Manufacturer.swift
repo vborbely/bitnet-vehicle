@@ -13,6 +13,7 @@ struct Manufacturer {
 }
 
 extension Manufacturer {
+    
     static var testData = [
         Manufacturer(name: "Manufacturer #1", vehicleTypes: ["Type #1", "Type #2","Type #1", "Type #2","Type #1", "Type #2","Type #1", "Type #2","Type #1", "Type #2"]),
         Manufacturer(name: "Manufacturer #2", vehicleTypes: ["Type #1", "Type #2"]),

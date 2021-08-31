@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF99404026DEBF3C00D5CFF1 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF99403F26DEBF3C00D5CFF1 /* Colors.xcassets */; };
 		EFCCDE1F26DAA9BE000C4B78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCCDE1E26DAA9BE000C4B78 /* AppDelegate.swift */; };
 		EFCCDE2126DAA9BE000C4B78 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCCDE2026DAA9BE000C4B78 /* SceneDelegate.swift */; };
 		EFCCDE2326DAA9BE000C4B78 /* ManufacturerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCCDE2226DAA9BE000C4B78 /* ManufacturerListViewController.swift */; };
@@ -15,9 +16,18 @@
 		EFCCDE2B26DAA9C1000C4B78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFCCDE2926DAA9C1000C4B78 /* LaunchScreen.storyboard */; };
 		EFCCDE3326DAAB37000C4B78 /* Manufacturer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCCDE3226DAAB37000C4B78 /* Manufacturer.swift */; };
 		EFCCDE3526DAC431000C4B78 /* ManufacturerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCCDE3426DAC431000C4B78 /* ManufacturerListCell.swift */; };
+		EFCCDE3926DCFCA1000C4B78 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCCDE3826DCFCA1000C4B78 /* SplashViewController.swift */; };
+		EFCCDE4826DD03C7000C4B78 /* TransitionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCCDE4426DD03C6000C4B78 /* TransitionDelegate.swift */; };
+		EFCCDE4926DD03C7000C4B78 /* FadePushAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCCDE4626DD03C7000C4B78 /* FadePushAnimator.swift */; };
+		EFCCDE4A26DD03C7000C4B78 /* FadePopAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCCDE4726DD03C7000C4B78 /* FadePopAnimator.swift */; };
+		EFCCDE5326DD08A2000C4B78 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCCDE5226DD08A2000C4B78 /* Constants.swift */; };
+		EFCCDE5726DD0DF8000C4B78 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCCDE5626DD0DF8000C4B78 /* ApiService.swift */; };
+		EFCCDE5A26DD14A3000C4B78 /* ManufacturersDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCCDE5926DD14A3000C4B78 /* ManufacturersDto.swift */; };
+		EFCCDE5D26DD1C11000C4B78 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCCDE5C26DD1C11000C4B78 /* Error.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF99403F26DEBF3C00D5CFF1 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		EFCCDE1B26DAA9BE000C4B78 /* BitnetVehicle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitnetVehicle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFCCDE1E26DAA9BE000C4B78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFCCDE2026DAA9BE000C4B78 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +38,14 @@
 		EFCCDE2C26DAA9C1000C4B78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFCCDE3226DAAB37000C4B78 /* Manufacturer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manufacturer.swift; sourceTree = "<group>"; };
 		EFCCDE3426DAC431000C4B78 /* ManufacturerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManufacturerListCell.swift; sourceTree = "<group>"; };
+		EFCCDE3826DCFCA1000C4B78 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		EFCCDE4426DD03C6000C4B78 /* TransitionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionDelegate.swift; sourceTree = "<group>"; };
+		EFCCDE4626DD03C7000C4B78 /* FadePushAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadePushAnimator.swift; sourceTree = "<group>"; };
+		EFCCDE4726DD03C7000C4B78 /* FadePopAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadePopAnimator.swift; sourceTree = "<group>"; };
+		EFCCDE5226DD08A2000C4B78 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EFCCDE5626DD0DF8000C4B78 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		EFCCDE5926DD14A3000C4B78 /* ManufacturersDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManufacturersDto.swift; sourceTree = "<group>"; };
+		EFCCDE5C26DD1C11000C4B78 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,17 +78,138 @@
 		EFCCDE1D26DAA9BE000C4B78 /* BitnetVehicle */ = {
 			isa = PBXGroup;
 			children = (
+				EFCCDE5426DD0DD8000C4B78 /* Instrastructure */,
+				EFCCDE4D26DD0834000C4B78 /* Application */,
+				EFCCDE4C26DD082D000C4B78 /* Presentation */,
+				EFCCDE4B26DD0824000C4B78 /* Domain */,
 				EFCCDE1E26DAA9BE000C4B78 /* AppDelegate.swift */,
 				EFCCDE2026DAA9BE000C4B78 /* SceneDelegate.swift */,
-				EFCCDE2226DAA9BE000C4B78 /* ManufacturerListViewController.swift */,
-				EFCCDE2426DAA9BE000C4B78 /* Main.storyboard */,
 				EFCCDE2726DAA9C1000C4B78 /* Assets.xcassets */,
-				EFCCDE2926DAA9C1000C4B78 /* LaunchScreen.storyboard */,
 				EFCCDE2C26DAA9C1000C4B78 /* Info.plist */,
-				EFCCDE3226DAAB37000C4B78 /* Manufacturer.swift */,
-				EFCCDE3426DAC431000C4B78 /* ManufacturerListCell.swift */,
+				EF99403F26DEBF3C00D5CFF1 /* Colors.xcassets */,
 			);
 			path = BitnetVehicle;
+			sourceTree = "<group>";
+		};
+		EFCCDE3A26DCFD4F000C4B78 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EFCCDE2226DAA9BE000C4B78 /* ManufacturerListViewController.swift */,
+				EFCCDE3826DCFCA1000C4B78 /* SplashViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EFCCDE4326DD03C6000C4B78 /* CustomTransition */ = {
+			isa = PBXGroup;
+			children = (
+				EFCCDE4426DD03C6000C4B78 /* TransitionDelegate.swift */,
+				EFCCDE4526DD03C6000C4B78 /* Transitions */,
+			);
+			path = CustomTransition;
+			sourceTree = "<group>";
+		};
+		EFCCDE4526DD03C6000C4B78 /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				EFCCDE4626DD03C7000C4B78 /* FadePushAnimator.swift */,
+				EFCCDE4726DD03C7000C4B78 /* FadePopAnimator.swift */,
+			);
+			path = Transitions;
+			sourceTree = "<group>";
+		};
+		EFCCDE4B26DD0824000C4B78 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				EFCCDE5B26DD1C01000C4B78 /* Errors */,
+				EFCCDE5126DD0889000C4B78 /* Configs */,
+				EFCCDE4F26DD0854000C4B78 /* Entities */,
+				EFCCDE4E26DD0840000C4B78 /* Core */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		EFCCDE4C26DD082D000C4B78 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				EFCCDE2426DAA9BE000C4B78 /* Main.storyboard */,
+				EFCCDE2926DAA9C1000C4B78 /* LaunchScreen.storyboard */,
+				EFCCDE5026DD0863000C4B78 /* Views */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		EFCCDE4D26DD0834000C4B78 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				EFCCDE3A26DCFD4F000C4B78 /* Controllers */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		EFCCDE4E26DD0840000C4B78 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				EFCCDE4326DD03C6000C4B78 /* CustomTransition */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		EFCCDE4F26DD0854000C4B78 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				EFCCDE3226DAAB37000C4B78 /* Manufacturer.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		EFCCDE5026DD0863000C4B78 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EFCCDE3426DAC431000C4B78 /* ManufacturerListCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EFCCDE5126DD0889000C4B78 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				EFCCDE5226DD08A2000C4B78 /* Constants.swift */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		EFCCDE5426DD0DD8000C4B78 /* Instrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				EFCCDE5826DD148D000C4B78 /* Dtos */,
+				EFCCDE5526DD0DE4000C4B78 /* Repositories */,
+			);
+			path = Instrastructure;
+			sourceTree = "<group>";
+		};
+		EFCCDE5526DD0DE4000C4B78 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				EFCCDE5626DD0DF8000C4B78 /* ApiService.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		EFCCDE5826DD148D000C4B78 /* Dtos */ = {
+			isa = PBXGroup;
+			children = (
+				EFCCDE5926DD14A3000C4B78 /* ManufacturersDto.swift */,
+			);
+			path = Dtos;
+			sourceTree = "<group>";
+		};
+		EFCCDE5B26DD1C01000C4B78 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				EFCCDE5C26DD1C11000C4B78 /* Error.swift */,
+			);
+			path = Errors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFCCDE2B26DAA9C1000C4B78 /* LaunchScreen.storyboard in Resources */,
+				EF99404026DEBF3C00D5CFF1 /* Colors.xcassets in Resources */,
 				EFCCDE2826DAA9C1000C4B78 /* Assets.xcassets in Resources */,
 				EFCCDE2626DAA9BE000C4B78 /* Main.storyboard in Resources */,
 			);
@@ -145,8 +285,16 @@
 			files = (
 				EFCCDE2326DAA9BE000C4B78 /* ManufacturerListViewController.swift in Sources */,
 				EFCCDE3526DAC431000C4B78 /* ManufacturerListCell.swift in Sources */,
+				EFCCDE4A26DD03C7000C4B78 /* FadePopAnimator.swift in Sources */,
+				EFCCDE5D26DD1C11000C4B78 /* Error.swift in Sources */,
 				EFCCDE1F26DAA9BE000C4B78 /* AppDelegate.swift in Sources */,
+				EFCCDE3926DCFCA1000C4B78 /* SplashViewController.swift in Sources */,
+				EFCCDE5326DD08A2000C4B78 /* Constants.swift in Sources */,
+				EFCCDE5726DD0DF8000C4B78 /* ApiService.swift in Sources */,
+				EFCCDE4926DD03C7000C4B78 /* FadePushAnimator.swift in Sources */,
+				EFCCDE4826DD03C7000C4B78 /* TransitionDelegate.swift in Sources */,
 				EFCCDE2126DAA9BE000C4B78 /* SceneDelegate.swift in Sources */,
+				EFCCDE5A26DD14A3000C4B78 /* ManufacturersDto.swift in Sources */,
 				EFCCDE3326DAAB37000C4B78 /* Manufacturer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -224,7 +372,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -279,7 +427,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
