@@ -11,7 +11,7 @@ class Error {
     let code: Int?
     let message: String
     init(message: String, code: Int?) {
-        self.message = "Error"
+        self.message = message
         self.code = code
     }
 }
@@ -25,6 +25,12 @@ class RequestError : Error {
 class ServerError : Error {
     init(message: String = "Server Error") {
         super.init(message: message, code: 500)
+    }
+}
+
+class NetworkError : Error {
+    init(message: String = "Network Error") {
+        super.init(message: message, code: nil)
     }
 }
 

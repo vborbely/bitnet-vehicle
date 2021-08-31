@@ -15,6 +15,8 @@ struct Constants {
             static let fadeInSec : Double = 1.0
             static let fadeOutSec : Double = 1.0
             static let splashDelayToNext : Double = 2.0
+            static let toastDurationShort : Double = 3.0
+            static let toastDurationLong : Double = 5.0
         }
         
     }

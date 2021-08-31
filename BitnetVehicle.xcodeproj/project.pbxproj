@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EF99404026DEBF3C00D5CFF1 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF99403F26DEBF3C00D5CFF1 /* Colors.xcassets */; };
+		EF99404226DED0D600D5CFF1 /* Toaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF99404126DED0D600D5CFF1 /* Toaster.swift */; };
 		EFCCDE1F26DAA9BE000C4B78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCCDE1E26DAA9BE000C4B78 /* AppDelegate.swift */; };
 		EFCCDE2126DAA9BE000C4B78 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCCDE2026DAA9BE000C4B78 /* SceneDelegate.swift */; };
 		EFCCDE2326DAA9BE000C4B78 /* ManufacturerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCCDE2226DAA9BE000C4B78 /* ManufacturerListViewController.swift */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		EF99403F26DEBF3C00D5CFF1 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		EF99404126DED0D600D5CFF1 /* Toaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toaster.swift; sourceTree = "<group>"; };
 		EFCCDE1B26DAA9BE000C4B78 /* BitnetVehicle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitnetVehicle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFCCDE1E26DAA9BE000C4B78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFCCDE2026DAA9BE000C4B78 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				EFCCDE3426DAC431000C4B78 /* ManufacturerListCell.swift */,
+				EF99404126DED0D600D5CFF1 /* Toaster.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				EFCCDE5D26DD1C11000C4B78 /* Error.swift in Sources */,
 				EFCCDE1F26DAA9BE000C4B78 /* AppDelegate.swift in Sources */,
 				EFCCDE3926DCFCA1000C4B78 /* SplashViewController.swift in Sources */,
+				EF99404226DED0D600D5CFF1 /* Toaster.swift in Sources */,
 				EFCCDE5326DD08A2000C4B78 /* Constants.swift in Sources */,
 				EFCCDE5726DD0DF8000C4B78 /* ApiService.swift in Sources */,
 				EFCCDE4926DD03C7000C4B78 /* FadePushAnimator.swift in Sources */,
@@ -452,7 +456,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.anysolutions.apple-samplecode.BitnetVehicle";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -471,7 +475,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.anysolutions.apple-samplecode.BitnetVehicle";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

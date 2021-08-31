@@ -22,6 +22,7 @@ class ManufacturerListViewController: UITableViewController {
         apiService.getManufacturers { data, error in
             if let error = error {
                 print(error.message)
+                self.view.showToast(toastMessage: "Error: \(error.code != nil ? error.code!.description : "") \(error.message)", duration: CGFloat(Constants.Timings.Transitions.toastDurationLong))
             }
             
             if let data = data {

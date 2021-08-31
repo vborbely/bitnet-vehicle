@@ -23,21 +23,24 @@ class ApiService : URLSessionDataTask, URLSessionDelegate {
         let url = URL(string: mfrUrl)!
         
         let task = session.dataTask(with: url) { data, response, error in
-            
-            if let error = error {
-                print("Error", error)
+            if(error != nil){
                 DispatchQueue.main.async {
-                    completion(nil, RequestError(message: error.localizedDescription, code: 400))
+                    completion(nil, NetworkError(message: error!.localizedDescription.description))
                 }
+                return
             }
             
             guard let responseCode = (response as? HTTPURLResponse)?.statusCode else {
-                print("not a HTTP response")
+                DispatchQueue.main.async {
+                    completion(nil, RequestError(message: "Bad response", code: 400))
+                }
                 return
             }
             
             guard let data = data else {
-                print("bad data")
+                DispatchQueue.main.async {
+                    completion(nil, RequestError(message: "Bad data", code: 400))
+                }
                 return
             }
             
@@ -48,7 +51,7 @@ class ApiService : URLSessionDataTask, URLSessionDelegate {
                 }
             } else {
                 DispatchQueue.main.async {
-                    completion(nil, RequestError(code: 400))
+                    completion(nil, RequestError(code: responseCode))
                 }
             }
         }
